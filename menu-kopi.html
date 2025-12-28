@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kopi Dulu - Menu Kopi</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    /* CSS Simpel Nuansa Coklat */
+    body { 
+      background-color: #fdf5e6; 
+      color: #3e2723; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      margin: 0; 
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    header { 
+      background-color: #3e2723; 
+      color: #d7ccc8; 
+      padding: 30px 20px; 
+      text-align: center; 
+    }
+    
+    header h1 { margin: 0; font-weight: bold; color: #d7ccc8; }
+    
+    nav { margin-top: 15px; }
+    nav a { 
+      color: #d7ccc8; 
+      text-decoration: none; 
+      margin: 0 10px; 
+      font-size: 14px; 
+    }
+    nav a:hover { color: #ffffff; }
+
+    .banner img { 
+      object-fit: cover; 
+      border-bottom: 5px solid #795548;
+    }
+
+    h2 { 
+      color: #5d4037; 
+      margin: 30px 0; 
+      font-weight: bold; 
+    }
+
+    /* Styling Tabel agar Modern */
+    .table-container {
+      padding: 0 20px;
+      margin-bottom: 100px; /* Memberi jarak ke footer */
+    }
+
+    table { 
+      background-color: white !important; 
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+      border: none !important;
+    }
+
+    thead th {
+      background-color: #795548 !important;
+      color: white !important;
+      border: none !important;
+      padding: 15px !important;
+    }
+
+    td { 
+      vertical-align: middle !important; 
+      border-color: #f1ede7 !important;
+      padding: 15px !important;
+    }
+
+    footer { 
+      background-color: #3e2723; 
+      color: #d7ccc8; 
+      text-align: center; 
+      padding: 20px; 
+      font-size: 12px; 
+      margin-top: auto; /* Memaksa footer ke paling bawah */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kopi Dulu</h1>
+    <nav>
+      <a href="index.html">🏠 Beranda</a>
+      <a href="menu-kopi.html">☕ Menu Kopi</a>
+      <a href="menu-noncoffe.html">🍵 Menu Non-Coffee</a>
+      <a href="kontak.html">📞 Kontak</a>
+      <a href="aboutkopidulu.html">👥 Tentang Kami</a>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <img src="gambarkopi/banner.jpg" alt="Banner Espresso" width="100%" height="300">
+  </div>
+
+  <h2 align="center">Daftar Menu Kopi</h2>
+  
+  <div class="container table-container">
+    <div class="table-responsive">
+      <table class="table table-hover" align="center">
+        <thead>
+          <tr>
+            <th>Gambar</th>
+            <th>Nama Menu</th>
+            <th>Harga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="center"><img src="gambarkopi/gambarkopi1.jpg" alt="Espresso" width="150" class="img-fluid rounded shadow-sm"></td>
+            <td>
+  <strong>Espresso</strong><br>
+  <small class="text-muted">kuat, pekat, dan intens dengan perpaduan rasa pahit, manis, dan asam yang seimbang.</small>
+</td>
+            <td>Rp 25.000</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="gambarkopi/gambarkopi2.jpg" alt="Latte" width="150" class="img-fluid rounded shadow-sm"></td>
+            <td>
+  <strong>Latte</strong><br>
+  <small class="text-muted">lembut, creamy, dan milky dengan keseimbangan antara rasa espresso yang kaya dan susu yang dominan.</small>
+</td>
+            <td>Rp 30.000</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="gambarkopi/gambarkopi3.jpg" alt="Cappuccino" width="150" class="img-fluid rounded shadow-sm"></td>
+            <td>
+  <strong>Cappuccino</strong><br>
+  <small class="text-muted">Rasa cappuccino lembut, creamy, dengan pahit kopi yang ringan.</small>
+</small>
+</td>
+            <td>Rp 32.000</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="gambarkopi/gambarkopi4.jpg" alt="Americano" width="150" class="img-fluid rounded shadow-sm"></td>
+            <td>
+  <strong>Americano</strong><br>
+  <small class="text-muted">ringan, bersih, dan tidak sepekat espresso murni, dengan keseimbangan antara rasa pahit dan sedikit asam.</small>
+</small>
+</td>
+            <td>Rp 28.000</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="gambarkopi/gambarkopi5.jpg" alt="Butterscotch Latte" width="150" class="img-fluid rounded shadow-sm"></td>
+             <td>
+  <strong>Butterscotch Latte</strong><br>
+  <small class="text-muted">manis, gurih, dan creamy dengan aroma karamel yang kaya, hasil dari campuran espresso pahit dengan saus butterscotch</small>
+</small>
+            <td>Rp 22.000</td>
+          </tr>
+          <tr>
+            <td align="center"><img src="gambarkopi/gambarkopi6.jpg" alt="Mocchacino" width="150" class="img-fluid rounded shadow-sm"></td>
+            <td><strong>Mocchacino</strong></td>
+            <td>Rp 22.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    © Rara saraswati. 251011700145. 01SIFP002
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    console.log("Halaman Menu Kopi Aktif");
+  </script>
+</body>
+</html>
