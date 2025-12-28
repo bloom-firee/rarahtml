@@ -4,33 +4,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kopi Dulu - Beranda</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    body { 
+      background-color: #fdf5e6; 
+      color: #3e2723; 
+      font-family: sans-serif; 
+      margin: 0; 
+    }
+    
+    header { 
+      background-color: #3e2723; 
+      color: #d7ccc8; 
+      padding: 40px 20px; 
+      text-align: center; 
+    }
+    
+    header h1 { margin: 0; font-weight: bold; }
+    
+    nav { margin-top: 15px; }
+    nav a { 
+      color: #d7ccc8; 
+      text-decoration: none; 
+      margin: 0 10px; 
+      font-size: 14px; 
+    }
+    
+    nav a:hover { color: #ffffff; }
+
+    .banner img { 
+      object-fit: cover; 
+      display: block; 
+    }
+
+    .content { 
+      max-width: 800px; 
+      margin: auto; 
+      margin-bottom: 105px;
+      padding: 50px 20px; 
+      text-align: center; 
+    }
+    
+    footer { 
+      background-color: #3e2723; 
+      color: #d7ccc8; 
+      text-align: center; 
+      padding: 20px; 
+      font-size: 12px; 
+    }
+  </style>
 </head>
 <body>
 
   <header>
     <h1>Kopi Dulu</h1>
     <nav>
-      <a href="beranda.html">🏠 Beranda</a>
+      <a href="index.html">🏠 Beranda</a>
       <a href="menu-kopi.html">☕ Menu Kopi</a>
       <a href="menu-noncoffe.html">🍵 Menu Non-Coffee</a>
       <a href="kontak.html">📞 Kontak</a>
       <a href="aboutkopidulu.html">👥 Tentang Kami</a>
-      <a href="formulir-barista.html">🧾 Daftar Barista</a>
     </nav>
   </header>
 
   <div class="banner">
-    <img src="banner.jpg" alt="Banner Non Coffee" width="100%" height="300">
+    <img src="gambarkopi/banner.jpg" alt="Banner Non Coffee" width="100%" height="300">
   </div>
 
   <div class="content">
-    <h2>Selamat Datang di Kopi Dulu!</h2>
+    <h2><strong>Selamat datang di Kopi Dulu!</strong></h2>
     <p>Tempat terbaik untuk menikmati secangkir kopi hangat atau minuman non-coffee favoritmu.  
        Kami menyajikan berbagai varian rasa dengan kualitas terbaik dan suasana yang nyaman.</p>
+  </div>
 
   <footer>
     © Rara saraswati. 251011700145. 01SIFP002
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    console.log("Web Kopi Dulu berhasil dimuat!");
+  </script>
 </body>
 </html>
